@@ -29,3 +29,8 @@ def count_result(request):
 			{'key_result1': value_result,'text1': user_text,
 			'word_dict1':word_dict,'sorted_dict1': sorted_dict,
 			'f1':sorted_dict[0]})
+
+
+
+def description(request):
+	return render(request,'description.html')

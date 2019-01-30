@@ -21,4 +21,5 @@ urlpatterns = [
 	path('blog/index/',views.index),
 	path('',views.count),
 	path('count_result.html/',views.count_result),
+	path('description/',views.description),
 ]
