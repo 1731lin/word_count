@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>字数统计结果</title>
+	</head>
+	<body>
+		<h1>字数统计结果为 {{ key_result1 }}字</h1>
+		<h2>你的文本</h2>
+		{{ text1 }}<br /><br /><br />
+		
+		<!--html中for循环格式-->
+		{{ f1 }}
+		<h3>词频（文字：数目）</h3>
+		{% for word,count in sorted_dict1 %}
+		{{ word }}-{{ count }}<br />
+		{% endfor %}
+		<!--{{ word_dict1 }}<br /><br /><br />-->
+		<!--<h2>这个词出现频率最高 {{sorted_dict1}}</h2><br /><br /><br />-->
+		<form >
+			
+		</form>
+	</body>
+</html>
